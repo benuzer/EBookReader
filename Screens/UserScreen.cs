@@ -204,7 +204,21 @@ namespace EBookReader
             },
             // Add more books as needed
             };
+
+            SaveBooksToFile(BooksDataFilePath, books);
             #endregion
+        }
+
+        public void SaveBooksToFile(string filePath, List<Books> books)
+        {
+            using (StreamWriter writer = new StreamWriter(filePath, false))
+            {
+                foreach (Books book in books)
+                {
+                    string bookData = $"{book.Title}|{book.Author}|{book.Genre}|{book.CoverImage.Tag}|{book.Category}|{book.ContentFilePath}";
+                    writer.WriteLine(bookData);
+                }
+            }
         }
         private void PicBox_Click(object sender, EventArgs e)
         {
