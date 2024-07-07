@@ -20,6 +20,7 @@ namespace EBookReader
             InitializeComponent();
             InitilizeBooks();
             DisplayBooksByCategory();
+            
         }
 
         private void btnSearch_Click(object sender, EventArgs e)

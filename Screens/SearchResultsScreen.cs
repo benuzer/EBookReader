@@ -17,6 +17,7 @@ namespace EBookReader
         {
             InitializeComponent();
             _searchResults = results;
+            DisplaySearchResults(_searchResults);
         }
 
         private void DisplaySearchResults(List<Books> searchResults)
@@ -38,12 +39,27 @@ namespace EBookReader
             }
         }
 
-        private void PicBox_Click(object sender, System.EventArgs e)
+        private void PicBox_Click(object sender, EventArgs e)
         {
             PictureBox picBox = sender as PictureBox;
             string bookContentFilePath = picBox.Tag.ToString();
-            //BookReaderForm readerForm = new BookReaderForm(bookContentFilePath);
-           // readerForm.Show();
+            OpenBookInDefaultViewer(bookContentFilePath);
+        }
+
+        private void OpenBookInDefaultViewer(string filePath)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = filePath,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open the book. Error: " + ex.Message);
+            }
         }
 
     }
