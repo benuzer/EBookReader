@@ -14,11 +14,7 @@ namespace EBookReader
     public partial class UserScreen : Form
     {
         private List<Books> books;
-        private string BooksDataFilePath = "C:\\Users\\saeed\\VS Projects 24\\EBookReader\\BooksInfo.txt";
-        private static string booksFolder = "C:\\Users\\saeed\\VS Projects 24\\EBookReader\\Books\\";
-        private static string imageCoversFolder = "C:\\Users\\saeed\\VS Projects 24\\EBookReader\\CoverImages\\";
-        private string[] booksFiles = Directory.GetFiles(booksFolder);
-        private string[] coverImagesFiles = Directory.GetFiles(imageCoversFolder);
+        private string BooksDataFilePath = "C:\\Users\\VICTUS\\Desktop\\EBookReader-master\\BooksInfo.txt";
         public UserScreen()
         {
             InitializeComponent();
