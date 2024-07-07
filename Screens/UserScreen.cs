@@ -69,7 +69,7 @@ namespace EBookReader
                         break;
                 }
             }
-        }   
+        }
 
         private void InitilizeBooks()
         {
@@ -224,8 +224,23 @@ namespace EBookReader
         {
             PictureBox picBox = sender as PictureBox;
             string bookContentFilePath = picBox.Tag.ToString();
-            //BookReaderForm readerForm = new BookReaderForm(bookContentFilePath);
-            //readerForm.Show();
+            OpenBookInDefaultViewer(bookContentFilePath);
+        }
+
+        private void OpenBookInDefaultViewer(string filePath)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = filePath,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open the book. Error: " + ex.Message);
+            }
         }
     }
 }

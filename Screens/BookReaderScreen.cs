@@ -12,12 +12,13 @@ namespace EBookReader
 {
     public partial class BookReaderScreen : Form
     {
+        private string filePath;
 
         private Books book;
-        public BookReaderScreen(Books selectedBook)
+        public BookReaderScreen(string filePath)
         {
             InitializeComponent();
-            book = selectedBook;
+            this.filePath= filePath;
             LoadBookContent();
         }
 
