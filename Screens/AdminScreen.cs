@@ -24,7 +24,7 @@
             private void btnSearch_Click(object sender, EventArgs e)
             {
                 string query = txtSearch.Text.ToLower();
-                var results = BooksDataManager.Books.Where(book => book.Title.ToLower().Contains(query) ||
+                var results = BooksDataManager.books.Where(book => book.Title.ToLower().Contains(query) ||
                                                   book.Author.ToLower().Contains(query) ||
                                                   book.Genre.ToLower().Contains(query) ||
                                                   book.Category.ToLower().Contains(query)).ToList();
@@ -81,7 +81,7 @@
             private void LoadBooks()
             {
                 dgvBooks.DataSource = null;
-                dgvBooks.DataSource = BooksDataManager.Books.ToList();
+                dgvBooks.DataSource = BooksDataManager.books.ToList();
             }
         }
     }

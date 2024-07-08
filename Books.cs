@@ -14,14 +14,7 @@ namespace EBookReader
         public string Author { get; set; }
         public string Genre { get; set; }
         public string CoverImagePath { get; set; }
-        public Image CoverImage
-        {
-            get
-            {
-                if (string.IsNullOrEmpty(CoverImagePath)) return null;
-                return Image.FromFile(CoverImagePath);
-            }
-        }
+        public Image CoverImage { get; set; }
         public string Category { get; set; }
         public string ContentFilePath { get; set; }
 

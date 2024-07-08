@@ -23,7 +23,7 @@ namespace EBookReader
         private void btnSearch_Click(object sender, EventArgs e)
         {
             string query = txtSearch.Text.ToLower();
-            var results = BooksDataManager.Books.Where(book => book.Title.ToLower().Contains(query) ||
+            var results = BooksDataManager.books.Where(book => book.Title.ToLower().Contains(query) ||
                                                                book.Author.ToLower().Contains(query) ||
                                                                book.Genre.ToLower().Contains(query) ||
                                                                book.Category.ToLower().Contains(query)).ToList();
@@ -39,7 +39,7 @@ namespace EBookReader
             flpCartoon.Controls.Clear();
             flpTale.Controls.Clear();
 
-            foreach (var book in BooksDataManager.Books)
+            foreach (var book in BooksDataManager.books)
             {
                 PictureBox picBox = new PictureBox
                 {
