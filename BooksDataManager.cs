@@ -11,7 +11,7 @@ namespace EBookReader
 
         static BooksDataManager()
         {
-            if (!File.Exists(BooksDataFilePath))
+          
                 InitilizeBooks();
             else
                 LoadBooks();
