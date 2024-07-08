@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using DevExpress.Utils.Svg;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -12,9 +13,10 @@ namespace EBookReader
 
         static BooksDataManager()
         {
-          
+            books = new List<Books>();
+            if (File.Exists(BooksDataFilePath)) 
                 InitilizeBooks();
-          
+            else
                 LoadBooks();
         }
 
@@ -33,7 +35,7 @@ namespace EBookReader
                         Title = parts[0],
                         Author = parts[1],
                         Genre = parts[2],
-                        CoverImage = Image.FromFile( parts[3]),
+                        CoverImagePath =parts[3],
                         Category = parts[4],
                         ContentFilePath = parts[5]
                     });
@@ -64,7 +66,7 @@ namespace EBookReader
         {
             #region
 
-            books = new List<Books>
+            books.AddRange(new List<Books>
             {
                 new Books
                 {
@@ -219,7 +221,7 @@ namespace EBookReader
                         "C:\\Users\\VICTUS\\Desktop\\EBookReader-master\\Books\\Yılan-Avı-“Dave-Gurney-–-8”-John-verdon.pdf"
                 }
                 // Add more books as needed
-            };
+            });
 
             SaveBooks();
 

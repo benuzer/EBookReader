@@ -1,0 +1,28 @@
+Ahmet Hamdi Tanpınar   Saatleri Ayarlama Enstitüsü.pdf|Author A|Genre A||Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Ahmet Hamdi Tanpınar   Saatleri Ayarlama Enstitüsü.pdf
+Alfred Mill Herkes İçin Ekonomi 101 Say Yayınları.pdf|Author B|Genre B||Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Alfred Mill Herkes İçin Ekonomi 101 Say Yayınları.pdf
+Carl Sagan Kozmos Altın Kitaplar.pdf|Author C|Genre C||Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Carl Sagan Kozmos Altın Kitaplar.pdf
+Dan Brown - İhanet Noktası.pdf|Author D|Genre D||Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Dan Brown - İhanet Noktası.pdf
+David Eagleman - Incognito  Beynin Gizli Hayatı.pdf|Author E|Genre E||Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\David Eagleman - Incognito  Beynin Gizli Hayatı.pdf
+Eric Grzymkowski Herkes İçin Sanat 101 Say Yayınları.pdf|Author F|Genre F||Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Eric Grzymkowski Herkes İçin Sanat 101 Say Yayınları.pdf
+Evren 101.pdf|Author G|Genre G||Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Evren 101.pdf
+Gottfried_Wilhelm_Leibniz_Monadoloji_İş_Bankası_Yayınları.pdf|Author H|Genre H||Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Gottfried_Wilhelm_Leibniz_Monadoloji_İş_Bankası_Yayınları.pdf
+Gottfried_Wilhelm_Leibniz_Monadoloji_ve_Metafizik_Üzerine_Konuşma.pdf|Author I|Genre I||Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Gottfried_Wilhelm_Leibniz_Monadoloji_ve_Metafizik_Üzerine_Konuşma.pdf
+Jack Schwager - Borsa Sihirbazları.pdf|Author J|Genre J||Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Jack Schwager - Borsa Sihirbazları.pdf
+Patrick_Rothfuss_Kralkatili_Güncesi_2_Bilge_Adamın_Korkusu.pdf|Author K|Genre K||Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Patrick_Rothfuss_Kralkatili_Güncesi_2_Bilge_Adamın_Korkusu.pdf
+Sabahattin Ali Kürk Mantolu Madonna YKY (2).pdf|Author L|Genre L||Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Sabahattin Ali Kürk Mantolu Madonna YKY (2).pdf
+Stephen King - Peri Masalı.pdf|Author M|Genre M||Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Stephen King - Peri Masalı.pdf
+Yılan-Avı-“Dave-Gurney-–-8”-John-verdon.pdf|Author N|Genre N||Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Yılan-Avı-“Dave-Gurney-–-8”-John-verdon.pdf
+Ahmet Hamdi Tanpınar   Saatleri Ayarlama Enstitüsü.pdf|Author A|Genre A|System.Drawing.Bitmap|Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Ahmet Hamdi Tanpınar   Saatleri Ayarlama Enstitüsü.pdf
+Alfred Mill Herkes İçin Ekonomi 101 Say Yayınları.pdf|Author B|Genre B|System.Drawing.Bitmap|Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Alfred Mill Herkes İçin Ekonomi 101 Say Yayınları.pdf
+Carl Sagan Kozmos Altın Kitaplar.pdf|Author C|Genre C|System.Drawing.Bitmap|Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Carl Sagan Kozmos Altın Kitaplar.pdf
+Dan Brown - İhanet Noktası.pdf|Author D|Genre D|System.Drawing.Bitmap|Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Dan Brown - İhanet Noktası.pdf
+David Eagleman - Incognito  Beynin Gizli Hayatı.pdf|Author E|Genre E|System.Drawing.Bitmap|Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\David Eagleman - Incognito  Beynin Gizli Hayatı.pdf
+Eric Grzymkowski Herkes İçin Sanat 101 Say Yayınları.pdf|Author F|Genre F|System.Drawing.Bitmap|Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Eric Grzymkowski Herkes İçin Sanat 101 Say Yayınları.pdf
+Evren 101.pdf|Author G|Genre G|System.Drawing.Bitmap|Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Evren 101.pdf
+Gottfried_Wilhelm_Leibniz_Monadoloji_İş_Bankası_Yayınları.pdf|Author H|Genre H|System.Drawing.Bitmap|Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Gottfried_Wilhelm_Leibniz_Monadoloji_İş_Bankası_Yayınları.pdf
+Gottfried_Wilhelm_Leibniz_Monadoloji_ve_Metafizik_Üzerine_Konuşma.pdf|Author I|Genre I|System.Drawing.Bitmap|Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Gottfried_Wilhelm_Leibniz_Monadoloji_ve_Metafizik_Üzerine_Konuşma.pdf
+Jack Schwager - Borsa Sihirbazları.pdf|Author J|Genre J|System.Drawing.Bitmap|Novel|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Jack Schwager - Borsa Sihirbazları.pdf
+Patrick_Rothfuss_Kralkatili_Güncesi_2_Bilge_Adamın_Korkusu.pdf|Author K|Genre K|System.Drawing.Bitmap|Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Patrick_Rothfuss_Kralkatili_Güncesi_2_Bilge_Adamın_Korkusu.pdf
+Sabahattin Ali Kürk Mantolu Madonna YKY (2).pdf|Author L|Genre L|System.Drawing.Bitmap|Tale|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Sabahattin Ali Kürk Mantolu Madonna YKY (2).pdf
+Stephen King - Peri Masalı.pdf|Author M|Genre M|System.Drawing.Bitmap|Story|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Stephen King - Peri Masalı.pdf
+Yılan-Avı-“Dave-Gurney-–-8”-John-verdon.pdf|Author N|Genre N|System.Drawing.Bitmap|Cartoon|C:\Users\VICTUS\Desktop\EBookReader-master\Books\Yılan-Avı-“Dave-Gurney-–-8”-John-verdon.pdf
