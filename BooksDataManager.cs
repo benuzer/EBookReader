@@ -7,6 +7,7 @@ namespace EBookReader
     internal static class BooksDataManager
     {
         private const string BooksDataFilePath = "books_data.txt";
+        private static List<Books> books;
 
         static BooksDataManager()
         {
@@ -16,11 +17,11 @@ namespace EBookReader
                 LoadBooks();
         }
 
-        public static List<Books> Books { get; private set; }
+        public static List<Books> Books => books;
 
         public static void LoadBooks()
         {
-            Books = new List<Books>();
+            books = new List<Books>();
             if (File.Exists(BooksDataFilePath))
             {
                 var lines = File.ReadAllLines(BooksDataFilePath);
@@ -63,7 +64,7 @@ namespace EBookReader
         {
             #region
 
-            Books = new List<Books>
+            books = new List<Books>
             {
                 new Books
                 {
