@@ -34,7 +34,6 @@
             this.txtCoverImage = new System.Windows.Forms.TextBox();
             this.txtCategory = new System.Windows.Forms.TextBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnBrowse = new System.Windows.Forms.Button();
             this.btnAddBook = new System.Windows.Forms.Button();
             this.btnDeleteBook = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
@@ -50,7 +49,6 @@
             this.txtTitle.Size = new System.Drawing.Size(260, 22);
             this.txtTitle.TabIndex = 0;
             this.txtTitle.Text = "Title";
-            this.txtTitle.TextChanged += new System.EventHandler(this.txtTitle_TextChanged);
             // 
             // txtAuthor
             // 
@@ -86,25 +84,15 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(12, 142);
+            this.txtSearch.Location = new System.Drawing.Point(278, 116);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(260, 22);
             this.txtSearch.TabIndex = 5;
             this.txtSearch.Text = "Search";
             // 
-            // btnBrowse
-            // 
-            this.btnBrowse.Location = new System.Drawing.Point(404, 209);
-            this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(75, 23);
-            this.btnBrowse.TabIndex = 6;
-            this.btnBrowse.Text = "Browse";
-            this.btnBrowse.UseVisualStyleBackColor = true;
-            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
-            // 
             // btnAddBook
             // 
-            this.btnAddBook.Location = new System.Drawing.Point(307, 142);
+            this.btnAddBook.Location = new System.Drawing.Point(101, 157);
             this.btnAddBook.Name = "btnAddBook";
             this.btnAddBook.Size = new System.Drawing.Size(75, 23);
             this.btnAddBook.TabIndex = 7;
@@ -114,7 +102,7 @@
             // 
             // btnDeleteBook
             // 
-            this.btnDeleteBook.Location = new System.Drawing.Point(404, 257);
+            this.btnDeleteBook.Location = new System.Drawing.Point(391, 296);
             this.btnDeleteBook.Name = "btnDeleteBook";
             this.btnDeleteBook.Size = new System.Drawing.Size(75, 23);
             this.btnDeleteBook.TabIndex = 8;
@@ -124,7 +112,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(404, 297);
+            this.btnSearch.Location = new System.Drawing.Point(391, 157);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 9;
@@ -148,7 +136,6 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnDeleteBook);
             this.Controls.Add(this.btnAddBook);
-            this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.txtCoverImage);
@@ -168,7 +155,6 @@
         private System.Windows.Forms.TextBox txtCoverImage;
         private System.Windows.Forms.TextBox txtCategory;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Button btnAddBook;
         private System.Windows.Forms.Button btnDeleteBook;
         private System.Windows.Forms.Button btnSearch;

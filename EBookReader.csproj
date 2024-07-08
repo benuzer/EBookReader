@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooksDataManager.cs" />
     <Compile Include="Screens\AdminScreen.cs">
       <SubType>Form</SubType>
     </Compile>
